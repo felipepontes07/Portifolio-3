@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #000;
+    background-color: #252525;
      height: 100vh;
 }
 
@@ -23,7 +23,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 300;
-    background-color: #00ff08;
+    background-color: #006eff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -43,7 +43,7 @@ header > .interface{
 }
 
 header a{
-    color: #5c5c5c;
+    color: #888888;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -64,7 +64,7 @@ header nav ul li{
 }
 
 .contato button:hover{
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #006eff;
     transform: scale(1.05);
 }
 
@@ -86,7 +86,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1 span{
-    color: #00ff08;
+    color: #006eff;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -109,7 +109,12 @@ section.topo-do-site .flex{
     }
 }
 
-.img-topo-site img{
+.topo-do-site .img-topo-site img{
     width: 80%;
     height: auto;
+}
+
+.logo img{
+        width: 50%;
+        height: 20pc 20pc;
 }
